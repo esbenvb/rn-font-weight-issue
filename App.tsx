@@ -71,26 +71,22 @@ function App(): React.JSX.Element {
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
-        <Header />
-        <View
+        <Text
           style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
+            fontFamily: 'RobotoCondensed-Bold',
+            fontSize: 32,
+            fontWeight: '700',
           }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
-        </View>
+          RobotoCondensed-Bold - weight 700
+        </Text>
+        <Text
+          style={{
+            fontFamily: 'RobotoCondensed-Regular',
+            fontSize: 32,
+            fontWeight: '700',
+          }}>
+          RobotoCondensed-Regular - weight 700
+        </Text>
       </ScrollView>
     </SafeAreaView>
   );
