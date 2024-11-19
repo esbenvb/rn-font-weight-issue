@@ -4,6 +4,7 @@
  *
  * @format
  */
+import {G, Path, Rect, Svg} from 'react-native-svg';
 
 import React from 'react';
 import type {PropsWithChildren} from 'react';
@@ -17,13 +18,8 @@ import {
   View,
 } from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+import {Colors} from 'react-native/Libraries/NewAppScreen';
+import SeparatorLineLabel from './SeparatorLineLabel';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -118,6 +114,22 @@ function App(): React.JSX.Element {
           Chivo-Regular
         </Text>
       </ScrollView>
+      <Svg width={300} height={200}>
+        <Rect width={300} height={200} fill="#CCCCCC" />
+        <G x={0} y={20}>
+          <SeparatorLineLabel
+            label="Some short text"
+            color="green"
+            labelColor="black"
+          />
+        </G>
+        <Path
+          d="M 30 60 L 75 7.5 L 97.5 0 L 90 22.5 L 37.5 67.5 C 45 75 45 82.5 52.5 75 C 52.5 82.5 60 90 52.5 90 A 10.65 10.65 90 0 1 45 97.5 A 37.5 37.5 90 0 0 30 75 Q 26.25 74.25 26.25 78.75 T 15 88.5 T 9 82.5 T 18.75 71.25 T 22.5 67.5 A 37.5 37.5 90 0 0 0 52.5 A 10.65 10.65 90 0 1 7.5 45 C 7.5 37.5 15 45 22.5 45 C 15 52.5 22.5 52.5 30 60 M 75 7.5 L 75 22.5 L 90 22.5 L 76.5 21 L 75 7.5"
+          x={10}
+          // fill={'transparent'}
+          stroke={'black'}
+          y={50}></Path>
+      </Svg>
     </SafeAreaView>
   );
 }
