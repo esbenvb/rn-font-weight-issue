@@ -87,6 +87,36 @@ function App(): React.JSX.Element {
           }}>
           RobotoCondensed-Regular - weight 700
         </Text>
+        <Text
+          style={{
+            fontFamily: 'RobotoCondensed-Regular',
+            fontSize: 32,
+          }}>
+          RobotoCondensed-Regular
+        </Text>
+        <Text
+          style={{
+            fontFamily: 'Chivo-Bold',
+            fontSize: 32,
+            fontWeight: '700',
+          }}>
+          Chivo-Bold - weight 700
+        </Text>
+        <Text
+          style={{
+            fontFamily: 'Chivo-Regular',
+            fontSize: 32,
+            fontWeight: '700',
+          }}>
+          Chivo-Regular - weight 700
+        </Text>
+        <Text
+          style={{
+            fontFamily: 'Chivo-Regular',
+            fontSize: 32,
+          }}>
+          Chivo-Regular
+        </Text>
       </ScrollView>
     </SafeAreaView>
   );
