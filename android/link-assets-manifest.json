@@ -2,6 +2,38 @@
   "migIndex": 1,
   "data": [
     {
+      "path": "assets/fonts/Chivo-Black.ttf",
+      "sha1": "22468372b1d9ed58392fbcde06d9f3f8269fd6b2"
+    },
+    {
+      "path": "assets/fonts/Chivo-BlackItalic.ttf",
+      "sha1": "d37e713b60e5e90a7a76c43e940c00fd3f728890"
+    },
+    {
+      "path": "assets/fonts/Chivo-Bold.ttf",
+      "sha1": "ac4f73c4c6d0a7a9dacbdc5df98c452fc2a860a8"
+    },
+    {
+      "path": "assets/fonts/Chivo-BoldItalic.ttf",
+      "sha1": "4096baaeafe57c25f97da1385ddb29bed52fe1a7"
+    },
+    {
+      "path": "assets/fonts/Chivo-Italic.ttf",
+      "sha1": "0709cd034f80072677653bf68671dc5f02bd383e"
+    },
+    {
+      "path": "assets/fonts/Chivo-Light.ttf",
+      "sha1": "c8d86b5134e1fc4e4dc27aee8cb45c2cd9f2437d"
+    },
+    {
+      "path": "assets/fonts/Chivo-LightItalic.ttf",
+      "sha1": "41ef3a35b991acd668abb6a7801c5c70bbf35c25"
+    },
+    {
+      "path": "assets/fonts/Chivo-Regular.ttf",
+      "sha1": "fd2ad9ac4e9a80caf30f3a8ca896ddd25b76c40c"
+    },
+    {
       "path": "assets/fonts/RobotoCondensed-Black.ttf",
       "sha1": "8a3e06d7c062d59541705c31a8281c3c753499d7"
     },
